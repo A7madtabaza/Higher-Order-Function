@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // for 
+//  let myName=[1,2,3];
+//  let newArray=[];
+//  for(let i=0;i<myName.length;i++){
+// newArray.push(2**myName[i])
+
+//  }
+// console.log(newArray)
+
+        // map
+
+// let myName=[1,2,3];
+// let newArray=myName.map(function(element)
+// {
+//     return 2**element;
+// })
+// console.log(newArray);
+
+
+     //   forEach
+// let myName=[1,2,3];
+// function newArray(e){
+// console.log(2**e)
+
+
+// }
+// myName.forEach(newArray)
+
+// let name=[1,2,3,"Rawan"]
+
+// let ar=name.map(function(el) {
+  
+  
+//  if(el%2==0){
+//     console.log("even")
+//  }if (el%2==1) {
+//     console.log("odd")
+//  } else {
+//     console.log('N/A')
+//  }
+    
+// })
+// console.log(ar)
+
+
+// let fizzBuzz=[3,1,10,3,20]
+// let num=fizzBuzz.map(function(el){
+// if(el%3&&el%5){
+//     return "fizz"
+// }if(el%3==0){
+//     return "Buzz"
+// }if(el%5==0){
+//     return "fizzBuss"
+// }
+
+
+// })
+// console.log(num)
+// let myName=[1,2,3];
+// function newArray(e){
+// console.log(2**e)
+
+
+// }
+// myName.forEach(newArray)
+// let fizzBuss1=[3,1,10,3,20]
+// function newe(a){
+//     if(a%3==0&&a%5==0){
+//     return "fizz"
+// }if(a%3==0){
+//     return "Buzz"
+// }if(a%5==0){
+//     return "fizzBuss"
+// }
+// }
+// fizzBuss1.forEach(newe)
+//  let add=fizzBuss1.filter(function(el){
+// return el %2===0;
+
+
+//  })
+//  console.log(add)
+//  let names=['Ahmad','Aren','RAAD','RAZAN']
+//  let as=names.filter(function(el){
+// return el.startsWith('A')
+
+//  })
+//  console.log(as)
+//   console.log(add)
+//  let namesss=['Ahmad','Aren','RAAD','RAZAN']
+//  let ass=names.map(function(el){
+// return el
+
+//  })
+//  console.log(ass)
+//  let mix="A13Bs2zx";
+//  let mm=mix.split("").filter(function(el){
+// return !isNaN(parseInt(el))
+
+//  }).map(function(ele){
+//     return ele*ele
+// })
+
+//  .join('')
+//  console.log(mm)
+//  let fizzBuss2=[3,1,10,3,20]
+//  let vc=fizzBuss2.reduce(function(el,m){
+//     return el 
+   
+//  },5)
+
+//  console.log(vc)
+//  let hy=['a','@','h','@','m','@','a']
+//  let dd=hy.filter(function(el){
+//     return ! el.startsWith('@')
+//  }).reduce(function(cc,carent){
+//     return `${cc}${carent}`
+//  })
+//  console.log(dd)
+// --------------------------------------------------------------------
+ let myString="1,2,3,E,L,Z,E,R,O,_,W,E,B,_,s,c,o,o,l,2,0,z"
+let soliotion=myString.split(",").filter(function(el){
+   return isNaN(el) && el !=="_";
+}).join("")
+// .reduce(function(el,carent){
+//    return el + carent;
+// });
+console.log(soliotion)
+// reduce Same function join
+// -------------------------------------------------------------------
+// let solution = myString
+//   .split(",") // تقسيم النص إلى مصفوفة باستخدام الفاصلة
+//   .filter(function (el) {
+//     // إزالة الأرقام والرموز غير المرغوبة
+//     return isNaN(el) && el !== "_"; // الاحتفاظ بالحروف فقط
+//   })
+  
+//   .reduce(function (el, current) {
+//     return el + current; // دمج العناصر في سلسلة نصية واحدة
+//   });
+
+
+// console.log(solution)
+    </script>
+</body>
+</html>
